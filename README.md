@@ -1,5 +1,12 @@
 # p2-twitter-analysis
-This is a template, to be filled out by each group and placed in their git repo titled README.md
+##The effects of Covid-19 in Sports and their fans:
+  Our project will consist of looking at the interaction between fans and their favorite sports. To accomplish this we will look at the four most popular sports: Soccer, Basketball, Baseball, and Football. Within these sport categories we will take a closer look at the most popular teams of every category to obtain a large set of data. Here are some of the questions we look to answer:
+  
+1) Analyze the stats (likes, retweets, new followers, etc...) for the top teams of each sport prior to March 2020.
+2) Analyze the stats (likes, retweets, new followers, etc...) for the top teams of each sport in the months of Arpil-June, July-Sept
+3) Analyze the stats (likes, retweets, new followers, etc...) for the top teams of each sport right now using streaming data.
+4) From the data we have gathered, and the conclusions we have come up with, what predictions/projections can we make about fans and their interactions with their favorite teams in a couple of months from  now?
+
 ### Requirements:
 - Create a Spark Application that processes Twitter data
 - Your project 2 pitch should involve some analysis of twitter data.  This can be the central feature.  Your final application should work, to some extent, with both streaming and historical data.
