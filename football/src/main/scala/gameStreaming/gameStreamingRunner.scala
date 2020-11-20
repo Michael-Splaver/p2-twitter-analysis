@@ -39,7 +39,7 @@ object gameStreamingRunner {
     }
 
     Future {
-      tweetStreamToDir(bearerToken, linesPerFile = 10)
+      tweetStreamToDir(bearerToken, linesPerFile = 50)
     }
 
     val spark = SparkSession.builder()
