@@ -17,14 +17,13 @@ import scala.concurrent.ExecutionContext.Implicits.global
 import scala.concurrent.Future
 
 object gameStreamingRunner {
-  def main(args: Array[String]): Unit = {
+  def streamMain(args: Array[String]): Unit = {
 
     val bearerToken = System.getenv("BEARER_TOKEN")
 
     if (null != bearerToken)
     {
-      var rules = new HashMap[String, String]()
-      //rules.put("game lang:en", "english")
+      val rules = new HashMap[String, String]()
       rules.put("from:AZCardinals", "FromCardinals")
       rules.put("to:AZCardinals", "ToCardinals")
       rules.put("from:Seahawks", "FromSeahawks")
