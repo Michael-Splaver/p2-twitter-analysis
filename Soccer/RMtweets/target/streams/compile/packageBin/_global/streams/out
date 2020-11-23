@@ -1,0 +1,56 @@
+[debug] Packaging C:\Users\Victor Paul\Desktop\RMtweets\target\scala-2.12\rmtweets_2.12-0.1.jar ...
+[debug] Input file mappings:
+[debug] 	historical
+[debug] 	  C:\Users\Victor Paul\Desktop\RMtweets\target\scala-2.12\classes\historical
+[debug] 	historical\Runner$.class
+[debug] 	  C:\Users\Victor Paul\Desktop\RMtweets\target\scala-2.12\classes\historical\Runner$.class
+[debug] 	historical\Runner.class
+[debug] 	  C:\Users\Victor Paul\Desktop\RMtweets\target\scala-2.12\classes\historical\Runner.class
+[debug] 	META-INF
+[debug] 	  C:\Users\Victor Paul\Desktop\RMtweets\target\scala-2.12\classes\META-INF
+[debug] 	META-INF\MANIFEST.MF
+[debug] 	  C:\Users\Victor Paul\Desktop\RMtweets\target\scala-2.12\classes\META-INF\MANIFEST.MF
+[debug] 	streaming
+[debug] 	  C:\Users\Victor Paul\Desktop\RMtweets\target\scala-2.12\classes\streaming
+[debug] 	streaming\StreamingRunner$.class
+[debug] 	  C:\Users\Victor Paul\Desktop\RMtweets\target\scala-2.12\classes\streaming\StreamingRunner$.class
+[debug] 	streaming\StreamingRunner.class
+[debug] 	  C:\Users\Victor Paul\Desktop\RMtweets\target\scala-2.12\classes\streaming\StreamingRunner.class
+[error] java.util.zip.ZipException: duplicate entry: META-INF/MANIFEST.MF
+[error] 	at java.util.zip.ZipOutputStream.putNextEntry(ZipOutputStream.java:232)
+[error] 	at java.util.jar.JarOutputStream.putNextEntry(JarOutputStream.java:109)
+[error] 	at sbt.io.IO$.addFileEntry$1(IO.scala:709)
+[error] 	at sbt.io.IO$.$anonfun$writeZip$6(IO.scala:718)
+[error] 	at sbt.io.IO$.$anonfun$writeZip$6$adapted(IO.scala:718)
+[error] 	at scala.collection.immutable.List.foreach(List.scala:431)
+[error] 	at sbt.io.IO$.writeZip(IO.scala:718)
+[error] 	at sbt.io.IO$.$anonfun$archive$2(IO.scala:668)
+[error] 	at sbt.io.IO$.$anonfun$archive$2$adapted(IO.scala:665)
+[error] 	at sbt.io.IO$.$anonfun$withZipOutput$1(IO.scala:765)
+[error] 	at sbt.io.IO$.$anonfun$withZipOutput$1$adapted(IO.scala:745)
+[error] 	at sbt.io.Using.apply(Using.scala:27)
+[error] 	at sbt.io.IO$.withZipOutput(IO.scala:745)
+[error] 	at sbt.io.IO$.archive(IO.scala:665)
+[error] 	at sbt.io.IO$.jar(IO.scala:630)
+[error] 	at sbt.Package$.makeJar(Package.scala:185)
+[error] 	at sbt.Package$.$anonfun$apply$4(Package.scala:109)
+[error] 	at sbt.Package$.$anonfun$apply$4$adapted(Package.scala:107)
+[error] 	at sbt.util.Tracked$.$anonfun$outputChangedW$1(Tracked.scala:128)
+[error] 	at sbt.Package$.apply(Package.scala:119)
+[error] 	at sbt.Defaults$.$anonfun$packageTask$1(Defaults.scala:1709)
+[error] 	at scala.Function1.$anonfun$compose$1(Function1.scala:49)
+[error] 	at sbt.internal.util.$tilde$greater.$anonfun$$u2219$1(TypeFunctions.scala:62)
+[error] 	at sbt.std.Transform$$anon$4.work(Transform.scala:68)
+[error] 	at sbt.Execute.$anonfun$submit$2(Execute.scala:282)
+[error] 	at sbt.internal.util.ErrorHandling$.wideConvert(ErrorHandling.scala:23)
+[error] 	at sbt.Execute.work(Execute.scala:291)
+[error] 	at sbt.Execute.$anonfun$submit$1(Execute.scala:282)
+[error] 	at sbt.ConcurrentRestrictions$$anon$4.$anonfun$submitValid$1(ConcurrentRestrictions.scala:265)
+[error] 	at sbt.CompletionService$$anon$2.call(CompletionService.scala:64)
+[error] 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+[error] 	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+[error] 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+[error] 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+[error] 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+[error] 	at java.lang.Thread.run(Thread.java:748)
+[error] (Compile / packageBin) java.util.zip.ZipException: duplicate entry: META-INF/MANIFEST.MF

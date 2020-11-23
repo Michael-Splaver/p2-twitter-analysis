@@ -1,0 +1,10 @@
+[debug] > Exec(all {file:/C:/Users/Victor%20Paul/Desktop/RMtweets/}rmtweets/products {file:/C:/Users/Victor%20Paul/Desktop/RMtweets/}rmtweets/test:products, None, None)
+[debug] Evaluating tasks: Compile / products, Test / products
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[info] compiling 2 Scala sources to C:\Users\Victor Paul\Desktop\RMtweets\target\scala-2.12\classes ...
+[info] done compiling
+[debug] Forcing garbage collection...
+[success] Total time: 14 s, completed Nov 22, 2020 8:52:24 PM
+[debug] > Exec(idea-shell, None, None)
+[debug] > Exec(, None, None)
+[debug] > Exec(idea-shell, None, None)
