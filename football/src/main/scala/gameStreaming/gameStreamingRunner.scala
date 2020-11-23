@@ -30,10 +30,6 @@ object gameStreamingRunner {
       rules.put("to:Seahawks", "ToSeahawks")
       rules.put("from:NFL", "FromNFL")
       rules.put("to:NFL", "ToNFL")
-      /*rules.put("from:realDonaldTrump", "FromTrump")
-      rules.put("to:RealDonaldTrump", "ToTrump")
-      rules.put("from:JoeBiden", "FromBiden")
-      rules.put("to:JoeBiden", "ToBiden")*/
       setupRules(bearerToken, rules)
     }
 
@@ -98,9 +94,6 @@ object gameStreamingRunner {
           fileNum += 1
           fileWriter = new PrintWriter(Paths.get("tweetstream.tmp").toFile)
         }
-
-        val output = line
-        //println(output)
 
         if (line != "")
         {

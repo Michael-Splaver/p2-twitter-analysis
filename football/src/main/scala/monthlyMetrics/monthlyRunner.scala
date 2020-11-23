@@ -17,7 +17,7 @@ object monthlyRunner {
     val years = Array(2020, 2019)
     var months = Array("Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov")
 
-    /*years.foreach(year => {
+    years.foreach(year => {
       var yearpath = "Patriots/" + year + "/"
 
       if (year == 2019)
@@ -64,9 +64,9 @@ object monthlyRunner {
           .sort(functions.desc("favorite_count"))
           .show(1, false)
       })
-    })*/
+    })
 
-    years.foreach(year => {
+    /*years.foreach(year => {
       var yearpath = "Patriots/PerYear/" + year
 
       val df = spark.read.option("multiline", "true").json(yearpath)
@@ -95,6 +95,6 @@ object monthlyRunner {
         .groupBy("Year")
         .agg(functions.avg("retweet_count"))
         .show()
-    })
+    })*/
   }
 }
