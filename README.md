@@ -1,7 +1,7 @@
 # p2-twitter-analysis
 The effects of Covid-19 in Sports:
 
-Our project will consist of looking at the interaction between fans and their favorite sports. To accomplish this we will look at the four most popular sports: Soccer, Basketball, Baseball, and Football. Within these sport categories we will take a closer look at the most popular team/teams and how much engagement ther is on twitter. Here are some of the questions we look to answer:
+Our project will consist of looking at the interaction between fans and their favorite sports. To accomplish this we will look at the four most popular sports: Soccer, Basketball, Baseball, and Football. Within these sport categories we will take a closer look at the most popular team/teams and how much engagement there is on twitter. Here are some of the questions we look to answer:
   
 1) Analyze the stats (favorites/likes, retweets, replies/comments) for the top team/teams of each sport prior to and including March 2020.
 2) Analyze the stats (favorites/likes, retweets, replies/comments) for the top team/teams of each sport after the month of March 2020.
